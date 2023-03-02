@@ -1,0 +1,202 @@
+@media only screen and (max-width: 600px) {
+
+
+/*=======================
+        GLOBAL
+========================*/
+    body .text_under_titles {
+        font-size: 2rem;
+        line-height:140%;
+        color: rgb(96, 96, 96);
+    }
+
+    body .small_texts {
+        font-size: 2rem;
+        line-height:130%;
+        color: grey;
+    }
+
+    body h2 {
+        font-size: 3rem;
+        font-family: RobotoBold;
+    }
+
+    main h4 {
+        font-family: RobotoBold;
+        font-size: 2rem;
+        margin-bottom: 0.8vh;
+    }
+
+
+/*=========================
+        HEADER
+==========================*/
+header {
+    height: 30vh;
+    margin-bottom: 40%;
+    }
+
+    header section #logo {
+        width: 6.5%;
+        margin-right: 2%;
+    }
+
+    header section div h3 {
+        font-size: 1.7rem;
+        font-family: RobotoBold;
+    }
+
+    header section:nth-of-type(1) div {
+        margin-left: 10vw;
+    }
+
+    header section:nth-of-type(1) {
+        padding: 1.5vh 3vw;
+    }
+
+    header section div:nth-of-type(1) p {
+        font-size: 1.6rem;
+        color: grey;
+    }
+
+    header section:nth-of-type(2) {
+        width: 60vw;
+        margin: 15% 50vw 10% 5%;
+    }
+
+    header section:nth-of-type(2) h1{
+        font-size: 3.5rem;
+        font-family: RobotoBold;
+        margin-bottom: 3%;
+    }
+
+    header section:nth-of-type(2) h6{
+        font-size: 1.6rem;
+    }
+
+
+/*=========================
+        MAIN #images8
+==========================*/
+    main #images8 {
+        width: 100%;
+        height: 45vh;
+        margin-top: 11.5vh;
+    }
+
+
+/*=========================
+        MAIN #every_idea
+==========================*/
+    main #every_idea {
+        /* display: flex;
+        justify-content: space-between; */
+        width: 90vw;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main #every_idea h2{
+        width: 70vw;
+        margin-bottom: 2vh;
+    }
+
+    main #every_idea p{
+        width: 70vw;
+        margin-top: 1.6vh;
+    }
+    
+
+/*=========================
+        MAIN #aftera-several
+==========================*/
+    main #after_several {
+        width: 75vw;
+        margin: auto;
+        margin-bottom: 10vh;
+    }
+
+    main #after_several h2{
+        width: 60vw;
+        margin: 9vh 0;
+    }
+
+/*=========================
+        MAIN #article_lines1&2
+==========================*/
+    main img {
+        width: 6vw;
+    }
+
+    main #article_line1, main #article_line2 {
+        width: 90vw;
+    } 
+
+    main #article_line1 div, main #article_line2 div {
+        width: 45vw;
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 5vh;
+    }
+
+    /*=========================
+        MAIN #pics_and_articles
+==========================*/
+    main #pics_and_articles {
+        width: 90vw;
+        margin: auto;
+    }
+
+    main #pics_and_articles div article {
+        width: 53vw;
+    }
+
+    main #pics_and_articles h3 {
+        font-size: 5.9rem;
+    }
+
+    main #pics_and_articles h5 {
+        font-family: RobotoBold;
+        font-size: 2.8rem;
+    }
+
+    main #pics_and_articles .pics_and_articles_emojis {
+        width: 6vw;
+    }
+
+
+/*=========================
+        MAIN #mails
+==========================*/
+    main #mails input[type="email"] {
+        padding: 1.3vh 7.5vw;
+        font-size: 1.7rem;
+    }
+
+    /* main #mails input[type="button"]  */
+    
+    main #mails button {
+        padding: 1.3vh 8.5vw;
+        font-size: 1.9rem;
+    }
+
+    main #mails form {
+        margin-bottom: 4.5vh;
+    }
+
+
+/*=========================
+        FOOTER
+==========================*/
+    footer {
+        width: 90vw;
+        padding-bottom: 1.1vh;
+    }
+
+    footer img {
+        width: 3vw;
+        height: 1.8vh;
+    }
+}
